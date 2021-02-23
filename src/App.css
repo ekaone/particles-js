@@ -9,3 +9,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.intro {
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  word-spacing: 1px;
+  letter-spacing: 0.03em;
+  line-height: 1.1;
+  border: 0;
+  vertical-align: baseline;
+  position: absolute;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  color: #fff;
+  padding: 15px;
+  font-size: 1.4em;
+}

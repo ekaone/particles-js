@@ -5,8 +5,29 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Particles width={500} height={500} />
-      Particles JS
+      <Particles
+        params={{
+          particles: {
+            number: {
+              value: 70,
+            },
+            size: {
+              value: 5,
+            },
+          },
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: "repulse",
+              },
+            },
+          },
+        }}
+        width="1200px"
+        height="500px"
+      />
+      <div className="intro">Particles JS</div>
     </div>
   );
 }
